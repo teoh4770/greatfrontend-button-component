@@ -107,10 +107,29 @@ h6 {
     isolation: isolate;
 }
 
+/* composition */
+.container {
+    display: grid;
+    gap: 6rem;
+    max-width: 64rem;
+    padding-inline: 1.875rem;
+    margin-top: 6.25rem;
+    margin-inline: auto;
+}
+
+.container > div {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* block */
 .button {
     /* Layout */
     display: inline-flex;
     flex-direction: row;
+    align-items: start;
     gap: 0.25rem;
     /* Spacing */
     padding-block: var(--_py, 0.5rem);
@@ -272,7 +291,7 @@ h6 {
 }
 
 .button[data-variant='destructive']:disabled {
-  --_bg-color: transparent !important;
+    --_bg-color: transparent !important;
 }
 
 .credits {
