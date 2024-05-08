@@ -107,13 +107,17 @@ h6 {
     isolation: isolate;
 }
 
+svg {
+    fill: currentColor;
+}
+
 /* composition */
 .container {
     display: grid;
     gap: 6rem;
     max-width: 64rem;
     padding-inline: 1.875rem;
-    margin-top: 6.25rem;
+    margin-block: 6.25rem;
     margin-inline: auto;
 }
 
@@ -124,12 +128,17 @@ h6 {
     gap: 1.5rem;
 }
 
+/* utility */
+.hidden {
+    display: none;
+}
+
 /* block */
 .button {
     /* Layout */
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     gap: 0.25rem;
     /* Spacing */
     padding-block: var(--_py, 0.5rem);
@@ -155,6 +164,32 @@ h6 {
     --_color: var(--text-disabled) !important;
     box-shadow: none !important;
     cursor: not-allowed;
+}
+
+.button[data-icon-left] > .button__icon-left {
+    display: block;
+}
+
+.button[data-icon-right] > .button__icon-right {
+    display: block;
+}
+
+.button[data-icon-only] {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+}
+
+.button[data-icon-only] > .button__icon-left {
+    display: block;
+}
+
+.button[data-icon-only] > .button__icon-right {
+    display: none;
+}
+
+.button[data-icon-only] > .button__text {
+    display: none;
 }
 
 /***********/
@@ -211,12 +246,11 @@ h6 {
 .button[data-variant='secondary'] {
     --_bg-color: var(--white);
     --_color: var(--text-primary);
-    border: var(--_border-size, 0.5px) solid var(--neutral-200);
+    border: var(--_border-size, 1px) solid var(--neutral-200);
     box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button[data-variant='secondary']:hover {
-    --_border-size: 1px;
     --_color: var(--text-primary-hover);
 }
 
@@ -229,7 +263,7 @@ h6 {
     --_color: var(--text-tertiary);
 }
 
-.button[data-variant='tertiary']:hover {
+.button[data-variant='tertiary']:active {
     --_bg-color: var(--bg-primary-hover);
 }
 
@@ -288,10 +322,6 @@ h6 {
 
 .button[data-variant='destructive']:focus-visible {
     outline: 4px solid rgba(217, 45, 32, 0.12);
-}
-
-.button[data-variant='destructive']:disabled {
-    --_bg-color: transparent !important;
 }
 
 .credits {
