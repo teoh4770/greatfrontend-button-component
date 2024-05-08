@@ -11,125 +11,577 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="img/favicon.ico" sizes="any" />
-  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
   <section class="container">
-    <div>
-      <button type="button" class="button" data-variant="primary" data-size="sm" icon="default" disabled>
-        Button CTA
+    <div class="primary">
+      <button type="button" class="button" data-variant="primary" data-size="sm" disabled>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="primary" data-size="md" icon="default" icon-left>
-        Button CTA
+      <button type="button" class="button" data-variant="primary" data-size="md" data-icon-left>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="primary" data-size="lg" icon="default" icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="primary" data-size="lg" data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="primary" data-size="xl" icon="only" icon-left icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="primary" data-size="xl" data-icon-left data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="primary" data-size="2xl" icon="only">
-        Button CTA
+      <button type="button" class="button" data-variant="primary" data-size="xl" data-icon-only>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="button" data-variant="primary" data-size="2xl">
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
     </div>
     <div class="secondary">
-      <button type="button" class="button" data-variant="secondary" data-size="sm" icon="default" disabled>
-        Button CTA
+      <button type="button" class="button" data-variant="secondary" data-size="sm" disabled>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="secondary" data-size="md" icon="default" icon-left>
-        Button CTA
+      <button type="button" class="button" data-variant="secondary" data-size="md" data-icon-left>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="secondary" data-size="lg" icon="default" icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="secondary" data-size="lg" data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="secondary" data-size="xl" icon="only" icon-left icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="secondary" data-size="xl" data-icon-left data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="secondary" data-size="2xl" icon="only">
-        Button CTA
+      <button type="button" class="button" data-variant="secondary" data-size="xl" data-icon-only>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="button" data-variant="secondary" data-size="2xl">
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
     </div>
     <div class="tertiary">
-      <button type="button" class="button" data-variant="tertiary" data-size="sm" icon="default" disabled>
-        Button CTA
+      <button type="button" class="button" data-variant="tertiary" data-size="sm" disabled>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="tertiary" data-size="md" icon="default" icon-left>
-        Button CTA
+      <button type="button" class="button" data-variant="tertiary" data-size="md" data-icon-left>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="tertiary" data-size="lg" icon="default" icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="tertiary" data-size="lg" data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="tertiary" data-size="xl" icon="only" icon-left icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="tertiary" data-size="xl" data-icon-left data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="tertiary" data-size="2xl" icon="only">
-        Button CTA
+      <button type="button" class="button" data-variant="tertiary" data-size="xl" data-icon-only>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="button" data-variant="tertiary" data-size="2xl">
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
     </div>
     <div class="link-color">
-      <button type="button" class="button" data-variant="link-color" data-size="sm" icon="default" disabled>
-        Button CTA
+      <button type="button" class="button" data-variant="link-color" data-size="sm" disabled>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-color" data-size="md" icon="default" icon-left>
-        Button CTA
+      <button type="button" class="button" data-variant="link-color" data-size="md" data-icon-left>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-color" data-size="lg" icon="default" icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="link-color" data-size="lg" data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-color" data-size="xl" icon="only" icon-left icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="link-color" data-size="xl" data-icon-left data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-color" data-size="2xl" icon="only">
-        Button CTA
+      <button type="button" class="button" data-variant="link-color" data-size="xl" data-icon-only>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="button" data-variant="link-color" data-size="2xl">
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
     </div>
     <div class="link-gray">
-      <button type="button" class="button" data-variant="link-gray" data-size="sm" icon="default" disabled>
-        Button CTA
+      <button type="button" class="button" data-variant="link-gray" data-size="sm" disabled>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-gray" data-size="md" icon="default" icon-left>
-        Button CTA
+      <button type="button" class="button" data-variant="link-gray" data-size="md" data-icon-left>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-gray" data-size="lg" icon="default" icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="link-gray" data-size="lg" data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-gray" data-size="xl" icon="only" icon-left icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="link-gray" data-size="xl" data-icon-left data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="link-gray" data-size="2xl" icon="only">
-        Button CTA
+      <button type="button" class="button" data-variant="link-gray" data-size="xl" data-icon-only>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="button" data-variant="link-gray" data-size="2xl">
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
     </div>
 
     <div class="destructive">
-      <button type="button" class="button" data-variant="destructive" data-size="sm" icon="default" disabled>
-        Button CTA
+      <button type="button" class="button" data-variant="destructive" data-size="sm" disabled>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="destructive" data-size="md" icon="default" icon-left>
-        Button CTA
+      <button type="button" class="button" data-variant="destructive" data-size="md" data-icon-left>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="destructive" data-size="lg" icon="default" icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="destructive" data-size="lg" data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="destructive" data-size="xl" icon="only" icon-left icon-right>
-        Button CTA
+      <button type="button" class="button" data-variant="destructive" data-size="xl" data-icon-left data-icon-right>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
-      <button type="button" class="button" data-variant="destructive" data-size="2xl" icon="only">
-        Button CTA
+      <button type="button" class="button" data-variant="destructive" data-size="xl" data-icon-only>
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="button" data-variant="destructive" data-size="2xl">
+        <svg class="button__icon-left hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
+        <span class="button__text">Button CTA</span>
+        <svg class="button__icon-right hidden" style="width:var(--_svg-w, 1rem); height:var(--_svg-h, 1rem);"
+          viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <path
+            d="M8.00042 12.3472L3.10219 15.089L4.19617 9.58326L0.0749245 5.77208L5.64926 5.11115L8.00042 0.0138855L10.3515 5.11115L15.9258 5.77208L11.8047 9.58326L12.8986 15.089L8.00042 12.3472ZM8.00042 10.7556L10.9495 12.4063L10.2908 9.09145L12.7722 6.7968L9.41597 6.39884L8.00042 3.32987L6.58482 6.39884L3.22862 6.7968L5.70994 9.09145L5.05127 12.4063L8.00042 10.7556Z"
+            fill="currentColor" />
+        </svg>
       </button>
     </div>
   </section>
 
-
-
   <!-- Attribute this challenge to yourself! -->
   <div class="credits">
     A challenge by
-    <a href="https://www.greatfrontend.com/projects?ref=challenges" target="_blank">GreatFrontEnd Projects</a>. Built by
-    <a href="https://www.greatfrontend.com/u/your_username" target="_blank">Your Name</a>.
+    <a href="https://www.greatfrontend.com/projects?ref=challenges" target="_blank">
+      GreatFrontEnd Projects
+    </a>
+    . Built by
+    <a href="https://www.greatfrontend.com/projects/u/teoh4770" target="_blank">
+      Chee Kian Teoh
+    </a>
+    .
   </div>
-  <script src="js/index.js"></script>
 </body>
 
 </html>
