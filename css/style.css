@@ -117,7 +117,7 @@ svg {
     gap: 6rem;
     max-width: 64rem;
     padding-inline: 1.875rem;
-    margin-block: 6.25rem;
+    padding-block: 6.25rem;
     margin-inline: auto;
 }
 
